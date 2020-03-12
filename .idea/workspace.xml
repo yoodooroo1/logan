@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5fa18d12-4b01-4c3e-b56c-e8d322f91169" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectId" id="1UPEz2Ul5BizTRJhefMc9r74C6o" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Demo2\Logan" />
+      <recent name="F:\Demo2\Logan\App\Logan\Controller" />
+      <recent name="F:\Demo2\Logan\App\Common\Util" />
+      <recent name="F:\Demo2\Logan\App\Common\Common" />
+      <recent name="F:\Demo2\Logan\App\Common\Conf" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5fa18d12-4b01-4c3e-b56c-e8d322f91169" name="Default Changelist" comment="" />
+      <created>1573608932513</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573608932513</updated>
+      <workItem from="1573608934244" duration="25394000" />
+      <workItem from="1573693887410" duration="9174000" />
+      <workItem from="1573784447634" duration="329000" />
+      <workItem from="1573784787228" duration="18146000" />
+      <workItem from="1574048159039" duration="68000" />
+      <workItem from="1574145757709" duration="18114000" />
+      <workItem from="1574645101358" duration="1528000" />
+      <workItem from="1574647564243" duration="5902000" />
+      <workItem from="1574654273274" duration="653000" />
+      <workItem from="1574661538174" duration="25650000" />
+      <workItem from="1574751823780" duration="5943000" />
+      <workItem from="1574757799177" duration="5223000" />
+      <workItem from="1574764189505" duration="7660000" />
+      <workItem from="1574904877791" duration="1998000" />
+      <workItem from="1574921523849" duration="300000" />
+      <workItem from="1575250091464" duration="29000" />
+      <workItem from="1575257561681" duration="3087000" />
+      <workItem from="1575270988239" duration="5276000" />
+      <workItem from="1575443416662" duration="276000" />
+      <workItem from="1575444279088" duration="116000" />
+      <workItem from="1575451031802" duration="2022000" />
+      <workItem from="1575517485946" duration="36000" />
+      <workItem from="1575539006160" duration="72000" />
+      <workItem from="1575540825689" duration="2696000" />
+      <workItem from="1575543825666" duration="586000" />
+      <workItem from="1575594989153" duration="338000" />
+      <workItem from="1576200047575" duration="165000" />
+      <workItem from="1576204655651" duration="226000" />
+      <workItem from="1576218102057" duration="32000" />
+      <workItem from="1576544676135" duration="7000" />
+      <workItem from="1576565987875" duration="11000" />
+      <workItem from="1576637439423" duration="678000" />
+      <workItem from="1576659419426" duration="11000" />
+      <workItem from="1576727161335" duration="3612000" />
+      <workItem from="1577084403468" duration="671000" />
+      <workItem from="1577086198224" duration="664000" />
+      <workItem from="1577096854607" duration="9000" />
+      <workItem from="1580900024836" duration="13000" />
+      <workItem from="1582950971199" duration="459000" />
+      <workItem from="1582951488710" duration="2594000" />
+      <workItem from="1582960484419" duration="1790000" />
+      <workItem from="1582962329991" duration="611000" />
+      <workItem from="1582963999694" duration="4621000" />
+      <workItem from="1583115664422" duration="209000" />
+      <workItem from="1583116094104" duration="236000" />
+      <workItem from="1583805716626" duration="20850000" />
+      <workItem from="1583888975742" duration="795000" />
+      <workItem from="1583889800641" duration="249000" />
+      <workItem from="1583891262449" duration="452000" />
+      <workItem from="1583895782674" duration="20779000" />
+      <workItem from="1583975768595" duration="17500000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1584008413833</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584008413833</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="27" key="#Deployment" timestamp="1582962346247">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="27" key="#Deployment/0.0.1366.738@0.0.1366.738" timestamp="1582962346247" />
+    <state x="411" y="171" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583915820162">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="411" y="171" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1583915820162" />
+    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1584008409915">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1584008409915" />
+    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1584007853811">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1584007853811" />
+    <state x="263" y="103" key="IDE.errors.dialog" timestamp="1583921574513">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="263" y="103" key="IDE.errors.dialog/0.0.1366.738@0.0.1366.738" timestamp="1583921574513" />
+    <state x="506" y="182" key="NewPhpClassDialog" timestamp="1583896788236">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="506" y="182" key="NewPhpClassDialog/0.0.1366.738@0.0.1366.738" timestamp="1583896788236" />
+    <state x="499" y="292" key="NewPhpFileDialog" timestamp="1583896755502">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="499" y="292" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1583896755502" />
+    <state x="184" y="11" key="SettingsEditor" timestamp="1583999241257">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="184" y="11" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1583999241257" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1583915287248">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.738@0.0.1366.738" timestamp="1583915287248" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1584008429379">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1584008429379" />
+    <state x="359" y="102" width="647" height="534" key="find.popup" timestamp="1583823624437">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="359" y="102" width="647" height="534" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1583823624437" />
+    <state x="359" y="215" width="716" height="307" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1583999251187">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="359" y="215" width="716" height="307" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1366.738@0.0.1366.738" timestamp="1583999251187" />
+    <state x="339" y="165" key="run.anything.popup" timestamp="1583897576007">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1583897576007" />
+    <state x="492" y="236" key="webDeployment.PermissionsDialog" timestamp="1583897312725">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="492" y="236" key="webDeployment.PermissionsDialog/0.0.1366.738@0.0.1366.738" timestamp="1583897312725" />
+  </component>
+</project>
