@@ -22,7 +22,8 @@ function logWrite($message = '', $level = 'INFO', $method = 'record')
  * @param string $message
  * @param string $method
  */
-function errorLogs($message = '',$method = 'write'){
+function errorLogs($message = '',$method = 'write')
+{
     \Think\Log::$method($message."\n", \Think\Log::INFO, "",LOG_PATH.'Error/'.date('y_m_d').'.log');
 }
 
@@ -31,7 +32,8 @@ function errorLogs($message = '',$method = 'write'){
  * @return string $ret
  *
  **/
- function receiveStream(){
+ function receiveStream()
+ {
 
     $streamData = isset($GLOBALS['HTTP_RAW_POST_DATA']) ? $GLOBALS['HTTP_RAW_POST_DATA'] : '';
 
@@ -54,7 +56,8 @@ function errorLogs($message = '',$method = 'write'){
  * @return string $ret
  *
  **/
- function receiveStreamToFile($receiveFile = ''){
+ function receiveStreamToFile($receiveFile = '')
+ {
     $streamData = isset($GLOBALS['HTTP_RAW_POST_DATA']) ? $GLOBALS['HTTP_RAW_POST_DATA'] : '';
     if(empty($streamData)){
         $streamData = file_get_contents('php://input');
@@ -72,7 +75,8 @@ function errorLogs($message = '',$method = 'write'){
  * @param string $str
  * @return array
  **/
- function str2Bytes($str = '') {
+ function str2Bytes($str = '')
+ {
     $len = strlen($str);
     $bytes = array();
     for($i=0;$i<$len;$i++) {
@@ -92,7 +96,8 @@ function errorLogs($message = '',$method = 'write'){
  * @param array $bytes
  * @return string $str
  */
-function bytes2Str($bytes = array()) {
+function bytes2Str($bytes = array())
+{
     $str = '';
     foreach($bytes as $ch) {
         $str .= chr($ch);
@@ -108,7 +113,8 @@ function bytes2Str($bytes = array()) {
  * @return string $unpacked
  */
 
- function decode_Gzip ($data) {
+ function decode_Gzip ($data)
+ {
     $flags = ord(substr($data, 3, 1));
     $headerLen = 10;
     if ($flags & 4) {
@@ -126,30 +132,4 @@ function bytes2Str($bytes = array()) {
     if ($unpacked === FALSE)
         $unpacked = $data;
     return $unpacked;
-}
-
-/**
- * 生成日志目录并获取文件路径 (APP为一级目录,id为二级目录,日期为文件名)
- * @param string $appName
- * @param string $id
- * @param string $date
- * @return string
- */
-function deriveFilePath($appName = '',$id = '',$date = ''){
-    if(empty($appName)){
-        $appName = 'none';
-        errorLogs('APP名为空');
-    }
-    $path = 'Logs/'.$appName.'/';
-    if(!empty($id)){
-        $logPath = $path.'/'.$id.'/';
-    }else{
-        $logPath = $path.'/none/';
-        errorLogs('ID为空');
-    }
-    if(empty($date)) $date = date('Y-m-d',time());
-    $outputPath =  $logPath.'/'.$date.'r';
-    if(!is_dir($path)) mkdir($path);
-    if(!is_dir($logPath)) mkdir($logPath);
-    return $outputPath;
 }

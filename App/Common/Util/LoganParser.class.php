@@ -15,8 +15,7 @@ class LoganParser
     private $key = ''; //AES key
     private $vi = ''; //AES vi
 
-    public function __construct($key = '',$vi = '')
-    {
+    public function __construct($key = '',$vi = ''){
         $this->cipher = MCRYPT_RIJNDAEL_128;
         $this->mode = MCRYPT_MODE_CBC;
         $this->key = $key;
@@ -29,7 +28,8 @@ class LoganParser
      * @param  string $is 文件目录
      * @param  string $os 文件目录
     **/
-    public function parse($is = '',$os = ''){
+    public function parse($is = '',$os = '')
+    {
         if(file_exists($is)){
             $fp = fopen($is,"rb");
             $buffer = 1024;
@@ -47,15 +47,16 @@ class LoganParser
      * @param  string $is 输入流
      * @param  string $os 输出的文件
     **/
-    public function parseStream($is,$os){
+    public function parseStream($is,$os)
+    {
         set_time_limit(0);
         $strLength = strlen($is);
         $start = 0;
-        $limit = 100000;
+        $limit = 1024;
         $bytes = [];
         for ($i=1; $i<=(int)($strLength/$limit); $i++){
             $bytes += str2Bytes(substr($is,$start,$limit));
-            $limit += 100000;
+            $limit += 1024;
         }
 //        $bytes = str2Bytes($is);
         $content = $bytes;

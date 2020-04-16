@@ -18,8 +18,11 @@ class TestController extends BaseController
         parent::__construct();
     }
 
-    public function decodeLogs(){
-        $logan = new LoganParser(AES_KEY,AES_VI);
-        $logan->parse(1,2);
+    public function test(){
+       $user = ['6288593','6288594','6288598','6288573','6288992','6289244','6289812'];
+       foreach ($user as $v){
+           $this->receiveUser('cashier_overseas_android',$v);
+       }
+       echo 1;
     }
 }
